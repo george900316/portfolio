@@ -119,6 +119,7 @@ p {
 
 #section3 img {
 	width: 200px;
+	object-fit: contain;
 }
 
 #section3 {
