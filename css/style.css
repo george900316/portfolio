@@ -1,0 +1,235 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:,PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+
+p {
+	font-size: 16px;
+}
+
+
+.navbarname {
+	font-family: Monoton;
+	font-size: 40px;
+	color: white;
+}
+
+.nav-link {
+	color: white!important;
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+	padding-left:50px!important;
+	padding-right:70px!important; 
+}
+}
+
+
+.banner img {
+	box-sizing: border-box;
+	width: 100%;
+	height: 500px;
+	object-fit: contain;
+}
+
+.banner {
+	margin-top: 76px;
+	background-color: #2F0000;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.about {
+	padding:100px 0 0 0;
+}
+
+.about img {
+	box-shadow:2px 2px 4px gray;
+	width: 4 00px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+.title {
+	font-size:30px;
+	font-weight: bold;
+}
+
+.title_line {
+	border-color:#3C3C3C;
+}
+
+.story {
+	padding: 50px 0;
+	font-size: 18px;
+	color: 	#3C3C3C;
+}
+
+.story span {
+	color: #3C3C3C;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.title_line {
+	margin-bottom: 50px;
+	color: #3C3C3C;
+}
+
+.portfolio {
+	padding-top:100px;
+}
+.portfolio .card {
+	background-color: #3C3C3C;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.portfolio img {
+	width:100%;
+	height: 233px;
+	margin-bottom:20px;
+	object-fit: cover;
+}
+
+.portfolio img:hover {
+	opacity: 0.8;
+}
+.product_name {
+	padding: 10px;
+	color: 	#BEBEBE;
+}
+
+.services {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#section3 img {
+	width: 200px;
+}
+
+#section3 {
+	margin-bottom: 100px;
+	padding-top: 100px;
+}
+
+.design1 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.text1 {
+	display: flex;
+	justify-content: center;
+}
+
+
+.wear1 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.text2 {
+	font-size: 40px!important;
+	display: flex;
+	justify-content: center;
+}
+
+.text3 {
+	font-size: 40px!important;
+	display: flex;
+	justify-content: center;
+}
+
+.markting1 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-image: url(../img/motor.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.contact .title {
+	color:#ffffff;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: #4F4F4F;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+}
+
+footer {
+	background-color: #2F0000;
+	padding:20px 0; 
+
+}
+
+footer p {
+	line-height: 39px;
+	margin:0 auto;
+}
+
+.last {
+	color: white;
+}
